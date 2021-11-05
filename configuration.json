@@ -1,0 +1,23 @@
+{
+  "lobby_addr": "localhost:8081",
+  "kitchen_addr"		: "localhost:8082",
+
+  "distribution_rout"	: "/distribution",
+  "order_rout"		: "/order",
+
+  "table_count"		: 6,
+  "waiter_count"		: 3,
+
+  "min_make_order"	: 2,
+  "max_make_order"	: 4,
+
+  "min_order_items"	: 1,
+  "max_order_items"	: 4,
+
+  "min_priority"		: 1,
+  "max_priority"		: 5,
+
+  "time_unit_millisecond_multiplier"	: 100,
+
+  "max_wait_multiplier"	: 1.3
+}
